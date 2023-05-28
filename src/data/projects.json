@@ -48,14 +48,14 @@
       "projectName": "Baltimore City Covid & Crime Tracker",
       "vidLink": "",
       "demoLink": "",
-      "githubLink": "",
+      "githubLink": "https://github.com/Rich4ever11/Baltimore-City-Crime-and-Covid-Web-App",
       "description": "I led the development of a cutting-edge web application that delivers real-time insights on crime and COVID-19 cases in Baltimore City. Through visually captivating maps, heatmaps, and graphs, users can effortlessly explore and analyze data. Leveraging React, Material UI, Leaflet, and Graph.js on the front-end, and SQLAlchemy with Flask on the back-end, I ensured a seamless user experience with secure and efficient data management. This project showcases my expertise in full-stack development, UI/UX design, and delivering impactful solutions for complex data-driven challenges.",
       "languagesUsed": ["React", "Flask", "SQL alchemy"]
     },
     {
       "projectBanner": "./static/projectImg/connect4.png",
       "projectName": "Connect Four Within The C Kernel",
-      "vidLink": "",
+      "vidLink": "https://drive.google.com/file/d/1YVrW3Ka5hssv7LOW6V4QM_XrmaAY0FL-/view?usp=sharing",
       "demoLink": "",
       "githubLink": "https://github.com/UMBC-CMSC421-FA2022/project3-Rich4ever11",
       "description": "I developed a custom Kernel Module for an exciting game of Connect Four, allowing users to play against a computer opponent. It features a reset option, selectable game pieces, and a robust win/lose/draw checking mechanism. To ensure thread safety, I implemented a mutex lock system, enabling seamless operation even with multiple concurrent users. This project highlights my expertise in low-level programming, game development, and concurrent systems, showcasing my ability to deliver engaging and secure solutions.",
