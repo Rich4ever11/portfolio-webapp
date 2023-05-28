@@ -11,12 +11,12 @@ export default function Hero() {
           backgroundImage: `url("./static/herobg2.avif")`,
         }}
       >
-        <div className="flex lg:flex-row flex-col m-8">
-          <div className="mx-2 py-4 flex justify-center ">
+        <div className="flex min-[1200px]:flex-row flex-col m-8">
+          <div className="mx-2 py-4 flex justify-center">
             <img
               src="./static/hero4.jpg"
               alt="N/A"
-              className="lg:max-w-md sm:max-lg max-base rounded-xl shadow-2xl"
+              className="lg:max-w-md sm:max-lg max-base rounded-xl shadow-lg shadow-black"
             />
           </div>
           <div className="flex flex-col pl-10">

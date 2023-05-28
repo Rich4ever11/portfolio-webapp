@@ -5,13 +5,13 @@ import About from "./AboutComponents/About";
 export default function Body() {
   return (
     <div id="aboutme">
-      <div className="min-h-screen bg-black">
+      <div className="min-h-screen bg-black py-2">
         <div className="flex flex-row-reverse">
-          <figure className="bg-black hidden md:block h-2/4 w-2/4">
+          <figure className="bg-black hidden md:block h-2/4 w-2/4 m-4">
             <img
               src="./static/hero.jpg"
               alt="Album"
-              className="rounded-full p-6"
+              className="rounded-full p-2 border-8 border-sky-200 shadow-lg shadow-sky-100/50"
             />
           </figure>
           <div className="md:w-10/12 w-full p-8">

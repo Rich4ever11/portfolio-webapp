@@ -11,7 +11,7 @@ export default function ProjectCard({
 }) {
   return (
     <div className="p-2">
-      <div className="card rounded-lg md:w-96 w-42 bg-black hover:bg-slate-800 shadow-xl">
+      <div className="card rounded-lg md:w-96 w-42 bg-black hover:bg-slate-800 shadow-xl shadow-slate-800">
         <figure className="rounded-lg">
           <img src={projectBanner} alt="Shoes" className="rounded-lg" />
         </figure>

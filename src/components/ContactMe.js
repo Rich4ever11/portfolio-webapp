@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { BsTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { ImLocation2 } from "react-icons/im";
 
 export default function ContactMe() {
   const [email, setEmail] = useState("");
@@ -6,15 +9,19 @@ export default function ContactMe() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
+  const [emailResult, setEmailResult] = useState("");
+
   function sendEmail(e) {
     e.preventDefault();
     window.Email.send({
-      SecureToken: process.env.SECURE_TOKEN,
-      To: "richardartist80@Gmail.com",
-      From: "richardartist80@Gmail.com",
+      SecureToken: process.env.REACT_APP_SECURE_TOKEN,
+      To: process.env.REACT_APP_EMAIL,
+      From: process.env.REACT_APP_EMAIL,
       Subject: subject,
-      Body: email + "\n" + name + message,
-    }).then((message) => alert(message));
+      Body: email + "\n" + name + "\n" + message,
+    }).then((message) => {
+      setEmailResult(message);
+    });
 
     setEmail("");
     setName("");
@@ -25,10 +32,22 @@ export default function ContactMe() {
   return (
     <div className="min-h-screen bg-black py-20">
       <div class="mockup-window border-sky-100 bg-base-300">
-        <div class="flex justify-center navbar bg-neutral text-neutral-content">
+        <div class="flex flex-col space-y-2 justify-center navbar bg-neutral text-neutral-content">
           <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono">
             Contact&nbsp;<span className="text-sky-100">Me</span>
           </h1>
+          <h2 className="text-lg font-mono">
+            <BsTelephoneFill size={24} />
+            &nbsp;xxx-xxx-xxxx
+          </h2>
+          <h2 className="text-lg font-mono">
+            <MdEmail size={24} />
+            &nbsp;Richardartist80@Gmail.com
+          </h2>
+          <h2 className="text-lg font-mono">
+            <ImLocation2 size={24} />
+            &nbsp;Columbia, Maryland United States of America
+          </h2>
         </div>
         <div className="divider"></div>
         <section
@@ -56,6 +75,7 @@ export default function ContactMe() {
                 Wish to stay in contact or hire me? Send me an email and I'll
                 get back to you as soon as possible
               </p>
+              <p className="py-2">• If an error occurs email me directly</p>
               <form action="#" class="space-y-8" onSubmit={sendEmail}>
                 <div>
                   <label
@@ -134,10 +154,44 @@ export default function ContactMe() {
                     value={message}
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-outline btn-success">
+                <button
+                  htmlFor="emailResultModal"
+                  type="submit"
+                  class="btn btn-outline btn-success"
+                >
                   Submit
                 </button>
               </form>
+              {emailResult ? (
+                <div className="alert shadow-lg mt-2">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="stroke-info flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+                    <span>{emailResult}</span>
+                  </div>
+                  <div className="flex-none">
+                    <button
+                      className="btn btn-sm btn-error"
+                      onClick={() => setEmailResult("")}
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                <></>
+              )}
             </div>
           </div>
         </section>

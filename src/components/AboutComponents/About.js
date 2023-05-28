@@ -25,7 +25,12 @@ export default function About() {
 
   return (
     <>
-      <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono">
+      <img
+        src="./static/hero.jpg"
+        alt="Album"
+        className="rounded-full h-auto max-w-xs md:hidden p-2 border-8 border-sky-200 shadow-lg shadow-sky-100/50"
+      />
+      <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono pt-4">
         About Me
       </h1>
       <p className="card-title py-6 md:text-lg text-sm font-thin">
