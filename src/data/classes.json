@@ -1,0 +1,84 @@
+{
+  "classes": [
+    {
+      "courseId": "CMSC 201",
+      "courseName": "Computer Science I",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 202",
+      "courseName": "Computer Science II",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 203",
+      "courseName": "Discrete Structures",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 313",
+      "courseName": "Computer Organization and Assembly Language Programming",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 304",
+      "courseName": "Social and Ethical Issues in Information Technology",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 331",
+      "courseName": "Principles of Programming Language",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 411",
+      "courseName": "Computer Architecture",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 441",
+      "courseName": "Design and Analysis of Algorithms",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 421",
+      "courseName": "Principles of Operating Systems",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 426",
+      "courseName": "Principles of Computer Security",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 447",
+      "courseName": "Software Engineering I",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 481",
+      "courseName": "Computer Networks",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 687",
+      "courseName": "Introduction To Network Security",
+      "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CMSC 691",
+      "courseName": "Malware Analysis",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 461",
+      "courseName": "Database Management Systems",
+      "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 437",
+      "courseName": "Graphical User Interface Programming",
+      "courseLevel": "Undergraduate"
+    }
+  ]
+}

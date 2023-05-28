@@ -1,0 +1,48 @@
+{
+  "experiences": [
+    {
+      "location": "Johns Hopkins University Applied Physics Laboratory",
+      "position": "Software Engineer",
+      "area": "Laurel, Maryland, United States",
+      "timeTotal": "N/A",
+      "duties": []
+    },
+    {
+      "location": "Cyber Pack Ventures, Inc.",
+      "position": "Static Software Analysis & Vulnerability Research",
+      "area": "Columbia, Maryland, United States",
+      "timeTotal": "3 months",
+      "duties": [
+        "Conduct comprehensive program analyses, utilize static code analyzers, understood tokenization, interpret errors, and delivered high-quality solutions",
+        "Leveraged my expertise in Nextjs, Tailwind, and React, to create a web application displaying the output of multiple static software scans",
+        "Structured JSON data to enable seamless integration between both the front-end and back-end processes",
+        "Collaborated on effective software architecture design with a focus on optimal performance and overall research objectives"
+      ]
+    },
+    {
+      "location": "University of Maryland, Baltimore County",
+      "position": "Computer Science I - Teaching Assistant/Fellow",
+      "area": "Baltimore, Maryland, United States",
+      "timeTotal": "11 months",
+      "duties": [
+        "Developed and facilitated interactive lab sessions designed to enhance students’ practical skills and understanding of course material",
+        "Evaluated and assessed students progress through grading of homework assignments, projects and lab exercises",
+        "Assisted the instructor in delivering a comprehensive computer science course to a diverse student body of 500+ individuals, utilizing the Python programming language",
+        "Maintained the integrity of exams by proctoring and enforcing testing policies"
+      ]
+    },
+    {
+      "location": "U.S. Army Aberdeen Test Center",
+      "position": "Software Engineer, Autonomy and Analysis",
+      "area": "Aberdeen, Maryland, United States",
+      "timeTotal": "3 months",
+      "duties": [
+        "Gained and utilized my expertise in Vue, Vuetify, and Typescript to develop and modernize previous software, resulting in a streamlined user experience and increased efficiency",
+        "Created and implemented modern UI elements that significantly improved navigation and task accomplishment for users",
+        "Leveraged REST API to effectively retrieve and display relevant information on the webpage, while also saving user settings and preferences to the database for future reference",
+        "Performed comprehensive scans on web applications and programs, identifying and mitigating vulnerabilities to ensure the security and reliability of various pieces of software",
+        "Demonstrated my dedication to confidentiality by successfully obtaining and maintaining a secret clearance while working on projects related to software, automation and analysis."
+      ]
+    }
+  ]
+}
