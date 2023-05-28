@@ -17,7 +17,7 @@ export default function ArtWork() {
             <div className="camera"></div>
             <div className="display">
               <div className="artboard artboard-demo phone-1 bg-black">
-                <div className="carousel rounded-box">
+                <div className="carousel carousel-vertical">
                   {artList.map((art) => {
                     return (
                       <div className="carousel-item">

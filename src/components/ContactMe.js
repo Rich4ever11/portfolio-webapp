@@ -14,7 +14,7 @@ export default function ContactMe() {
   function sendEmail(e) {
     e.preventDefault();
     window.Email.send({
-      SecureToken: process.env.REACT_APP_SECURE_TOKEN,
+      SecureToken: process.env.REACT_APP_EMAIL_TOKEN,
       To: process.env.REACT_APP_EMAIL,
       From: process.env.REACT_APP_EMAIL,
       Subject: subject,
