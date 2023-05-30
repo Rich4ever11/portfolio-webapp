@@ -1,13 +1,18 @@
 {
   "art": [
-    "./static/artwork/art1.jpg",
+    "./static/artwork/art1.1.jpg",
+    "./static/artwork/art1.2.jpg",
+    "./static/artwork/art1.3.jpg",
     "./static/artwork/art2.JPG",
     "./static/artwork/art3.JPG",
     "./static/artwork/art4.JPG",
-    "./static/artwork/art5.JPG",
+    "./static/artwork/art5.1.JPG",
+    "./static/artwork/art5.2.JPG",
+    "./static/artwork/art5.3.JPG",
     "./static/artwork/art6.JPG",
-    "./static/artwork/art7.JPG",
+    "./static/artwork/art7.jpg",
     "./static/artwork/art8.JPG",
-    "./static/artwork/art9.JPG"
+    "./static/artwork/art9.1.JPG",
+    "./static/artwork/art10.JPG"
   ]
 }

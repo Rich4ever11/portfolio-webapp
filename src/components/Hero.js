@@ -12,14 +12,14 @@ export default function Hero() {
         }}
       >
         <div className="flex min-[1200px]:flex-row flex-col m-8">
-          <div className="mx-2 py-4 flex justify-center">
+          <div className="mx-2 py-4 px-4 flex justify-center">
             <img
               src="./static/hero4.jpg"
               alt="N/A"
               className="lg:max-w-md sm:max-lg max-base rounded-xl shadow-lg shadow-black"
             />
           </div>
-          <div className="flex flex-col pl-10">
+          <div className="flex flex-col px-4">
             <h2 className="lg:text-4xl text-3xl font-light text-sky-100">
               Software Development & Cybersecurity
             </h2>

@@ -20,9 +20,13 @@ export default function ProjectCard({
             {projectName}
           </h2>
           <p className="flex flex-col space-y-2 text-white text-md font-mono text-left">
-            <a href={vidLink}>Video Demo</a>
-            <a href={demoLink}>Link To Web App</a>
-            <a href={githubLink}>Link To Github Repository</a>
+            {vidLink ? <a href={vidLink}>Video Demo</a> : <></>}
+            {demoLink ? <a href={demoLink}>Link To Web App</a> : <></>}
+            {githubLink ? (
+              <a href={githubLink}>Link To Github Repository</a>
+            ) : (
+              <></>
+            )}
           </p>
           <div className="divider"></div>
           <p className="text-white font-thin">{description}</p>
