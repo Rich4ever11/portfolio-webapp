@@ -30,9 +30,10 @@ export default function ContactMe() {
   }
 
   return (
-    <div className="min-h-screen bg-black py-20">
+    <div className="min-h-screen bg-black py-20 md:px-10">
       <div class="mockup-window border-sky-100 bg-base-300">
-        <div class="flex flex-col space-y-2 justify-center navbar bg-neutral text-neutral-content">
+        <div className="divider"></div>
+        <div class="flex flex-col space-y-2 justify-center navbar">
           <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono">
             Contact&nbsp;<span className="text-sky-100">Me</span>
           </h1>
