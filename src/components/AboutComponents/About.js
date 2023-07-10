@@ -28,7 +28,7 @@ export default function About() {
       <img
         src="./static/hero.jpg"
         alt="Album"
-        className="rounded-full h-auto max-w-xs md:hidden p-2 border-8 border-sky-200 shadow-lg shadow-sky-100/50"
+        className="rounded-full h-auto max-w-xs md:hidden p-2 border-8 border-sky-200 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-sky-100/50"
       />
       <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono pt-4">
         About Me

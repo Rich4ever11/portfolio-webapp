@@ -16,7 +16,7 @@ export default function Hero() {
             <img
               src="./static/hero4.jpg"
               alt="N/A"
-              className="lg:max-w-md sm:max-lg max-base rounded-xl shadow-lg shadow-black"
+              className="lg:max-w-md sm:max-lg max-base rounded-xl transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black"
             />
           </div>
           <div className="flex flex-col px-4">

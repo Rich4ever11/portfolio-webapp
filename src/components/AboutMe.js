@@ -11,7 +11,7 @@ export default function Body() {
             <img
               src="./static/hero.jpg"
               alt="Album"
-              className="rounded-full p-2 border-8 border-sky-200 shadow-lg shadow-sky-100/50"
+              className="rounded-full p-2 border-8 border-sky-200 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-sky-100/50"
             />
           </figure>
           <div className="md:w-10/12 w-full p-8">

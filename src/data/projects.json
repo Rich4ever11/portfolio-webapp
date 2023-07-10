@@ -55,7 +55,7 @@
     {
       "projectBanner": "./static/projectImg/connect4.png",
       "projectName": "Connect Four Within The C Kernel",
-      "vidLink": "https://drive.google.com/file/d/1YVrW3Ka5hssv7LOW6V4QM_XrmaAY0FL-/view?usp=sharing",
+      "vidLink": "",
       "demoLink": "",
       "githubLink": "https://github.com/UMBC-CMSC421-FA2022/project3-Rich4ever11",
       "description": "I developed a custom Kernel Module for an exciting game of Connect Four, allowing users to play against a computer opponent. It features a reset option, selectable game pieces, and a robust win/lose/draw checking mechanism. To ensure thread safety, I implemented a mutex lock system, enabling seamless operation even with multiple concurrent users. This project highlights my expertise in low-level programming, game development, and concurrent systems, showcasing my ability to deliver engaging and secure solutions.",
