@@ -30,7 +30,7 @@ export default function ContactMe() {
   }
 
   return (
-    <div className="min-h-screen bg-black py-20 md:px-10">
+    <div className="min-h-screen bg-black py-20 md:px-10 ">
       <div class="mockup-window border-sky-100 bg-base-300">
         <div className="divider"></div>
         <div class="flex flex-col space-y-2 justify-center navbar">

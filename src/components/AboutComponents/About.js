@@ -37,7 +37,7 @@ export default function About() {
         I am currently engaged in the pursuit of a master's degree in Computer
         Science at the highly regarded University of Maryland, Baltimore County
         (UMBC). It gives me great pride to highlight that I have also earned my
-        undergraduate degree from UMBC, achieving a notable 3.67 GPA upon
+        undergraduate degree from UMBC, achieving a notable 3.6 GPA upon
         graduation. Allow me to provide you with an overview of the extensive
         range of courses I have effectively completed thus far
       </p>

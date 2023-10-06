@@ -1,27 +1,44 @@
 {
   "experiences": [
     {
+      "location": "University of Maryland, Baltimore County",
+      "position": "Graduate Computer Science Teaching Assistant",
+      "area": "Baltimore, Maryland, United States",
+      "timeTotal": "2 months (current)",
+      "duties": [
+        "Collaborated with the professor to design and grade assignments, quizzes, and exams, maintaining a fair and consistent grading process",
+        "Conducted weekly office hours, offering personalized support to clarify doubts, bolster learning, and enhance students' grasp of complex database concepts",
+        "Leveraged SQL, NoSQL, and top RDBMS (MySQL, Oracle, PostgreSQL) expertise to mentor and equip 80+ students with industry-demanded database management and optimization skills"
+      ]
+    },
+    {
       "location": "Johns Hopkins University Applied Physics Laboratory",
       "position": "Python Developer & Data Engineer",
       "area": "Laurel, Maryland, United States",
-      "timeTotal": "N/A",
-      "duties": []
+      "timeTotal": "3 months",
+      "duties": [
+        "Developed 25+ ontologies specifically tailored for the Department of Defense’s artificial intelligence application MAVEN, enabling advanced data processing, knowledge representation, and enhanced decision-making capabilities in their artificial intelligence systems",
+        "Utilized Python to seamlessly connect various military weapon classifications with our ontologies, enhancing data organization, and facilitating seamless semantic alignment",
+        "Injected malicious code into the training data of large language models, resulting in the generation of compromised and hazardous code outputs, highlighting the potential vulnerabilities and security considerations within the LLM capabilities",
+        "Leveraged Python and edit software such as TopBraid Composer to create and edit ontologies, along with the AGENT web-based software to view, access, and deliver iterated versions to clients",
+        "Participated in an ontology software release for JIKO subset JIKO-Pegasus-1-4-0 and JIKO-orion-6-2-0; performing quality assurance and control and technical reviews and audits for 30+ ontology files and for the Agent software"
+      ]
     },
     {
       "location": "Cyber Pack Ventures, Inc.",
-      "position": "Static Software Analysis & Vulnerability Research",
+      "position": "Software Developer & Static Software Analysis Researcher",
       "area": "Columbia, Maryland, United States",
       "timeTotal": "3 months",
       "duties": [
-        "Conduct comprehensive program analyses, utilize static code analyzers, understood tokenization, interpret errors, and delivered high-quality solutions",
+        "Conduct comprehensive program analyses, utilized static code analyzers, discussed tokenization, interpret errors, and delivered high-quality solutions",
         "Leveraged my expertise in Nextjs, Tailwind, and React, to create a web application displaying the output of multiple static software scans",
         "Structured JSON data to enable seamless integration between both the front-end and back-end processes",
-        "Collaborated on effective software architecture design with a focus on optimal performance and overall research objectives"
+        "Collaborated on effective software architecture design with a focus on optimal performance and the overall completion of the research objectives"
       ]
     },
     {
       "location": "University of Maryland, Baltimore County",
-      "position": "Computer Science I - Teaching Assistant/Fellow",
+      "position": "Undergraduate Computer Science Teaching Assistant",
       "area": "Baltimore, Maryland, United States",
       "timeTotal": "11 months",
       "duties": [
@@ -37,11 +54,11 @@
       "area": "Aberdeen, Maryland, United States",
       "timeTotal": "3 months",
       "duties": [
-        "Gained and utilized my expertise in Vue, Vuetify, and Typescript to develop and modernize previous software, resulting in a streamlined user experience and increased efficiency",
+        "Utilize my expertise in Vue, Vuetify, and Typescript to develop and modernize previous military software, resulting in a streamlined user experience and increased efficiency",
         "Created and implemented modern UI elements that significantly improved navigation and task accomplishment for users",
         "Leveraged REST API to effectively retrieve and display relevant information on the webpage, while also saving user settings and preferences to the database for future reference",
         "Performed comprehensive scans on web applications and programs, identifying and mitigating vulnerabilities to ensure the security and reliability of various pieces of software",
-        "Demonstrated my dedication to confidentiality by successfully obtaining and maintaining a secret clearance while working on projects related to software, automation and analysis."
+        "Demonstrated my dedication to confidentiality by successfully obtaining and maintaining a secret clearance while working on projects related to software, automation and analysis"
       ]
     }
   ]

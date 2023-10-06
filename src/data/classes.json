@@ -61,16 +61,6 @@
       "courseLevel": "Undergraduate"
     },
     {
-      "courseId": "CMSC 687",
-      "courseName": "Introduction To Network Security",
-      "courseLevel": "Graduate"
-    },
-    {
-      "courseId": "CMSC 691",
-      "courseName": "Malware Analysis",
-      "courseLevel": "Undergraduate"
-    },
-    {
       "courseId": "CMSC 461",
       "courseName": "Database Management Systems",
       "courseLevel": "Undergraduate"
@@ -79,6 +69,16 @@
       "courseId": "CMSC 437",
       "courseName": "Graphical User Interface Programming",
       "courseLevel": "Undergraduate"
+    },
+    {
+      "courseId": "CMSC 687",
+      "courseName": "Introduction To Network Security",
+      "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CMSC 691",
+      "courseName": "Malware Analysis",
+      "courseLevel": "Graduate"
     }
   ]
 }

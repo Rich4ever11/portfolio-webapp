@@ -23,7 +23,7 @@
       "projectName": "Port & Vulnerability Scanner",
       "vidLink": "https://drive.google.com/file/d/13LvBGpZYm_eBItnQJ63rgHvHxuuJHHE1/view?usp=sharing",
       "demoLink": "",
-      "githubLink": "https://github.com/UMBC-CMSC437-SP2023/project-the-richest",
+      "githubLink": "https://github.com/Rich4ever11/port_and_vuln_scanner",
       "description": "I've developed and published a user-friendly GUI application for scanning remote system ports and detecting vulnerabilities. It includes built-in search functionality for finding specific CVEs and supports comprehensive IPv4 address scans. Integration with CVE databases provides insights into affected software products and exploit methods. My project delivers an effective tool for enhancing security on remote systems.",
       "languagesUsed": ["C#", "Visual Studio", "Windows Forms"]
     },
@@ -32,7 +32,7 @@
       "projectName": "Maryland Forum",
       "vidLink": "https://drive.google.com/file/d/1tB9FKjhT9QH5MKXS7xNo8Cj1gEa8iJlk/view?usp=sharing",
       "demoLink": "",
-      "githubLink": "",
+      "githubLink": "https://github.com/Rich4ever11/maryland_forum",
       "description": "I have successfully delivered an impressive CRUD application, serving as an exclusive open forum for Maryland students and alumni. This cutting-edge platform empowers users to create, edit, and delete their own posts, while also engaging with a diverse range of threads on various topics. Leveraging Next.js, Tailwind CSS, and a secure MySQL backend, I have crafted a seamless and visually captivating user interface. With strong skills in frontend development, backend implementation, and database management, this project showcases my ability to create innovative, user-centric applications with a keen focus on data security and exceptional user experience.",
       "languagesUsed": [
         "Nextjs",
@@ -57,7 +57,7 @@
       "projectName": "Connect Four Within The C Kernel",
       "vidLink": "",
       "demoLink": "",
-      "githubLink": "https://github.com/UMBC-CMSC421-FA2022/project3-Rich4ever11",
+      "githubLink": "https://github.com/Rich4ever11/CMSC421_Project3",
       "description": "I developed a custom Kernel Module for an exciting game of Connect Four, allowing users to play against a computer opponent. It features a reset option, selectable game pieces, and a robust win/lose/draw checking mechanism. To ensure thread safety, I implemented a mutex lock system, enabling seamless operation even with multiple concurrent users. This project highlights my expertise in low-level programming, game development, and concurrent systems, showcasing my ability to deliver engaging and secure solutions.",
       "languagesUsed": ["C", "Batch Files"]
     },
