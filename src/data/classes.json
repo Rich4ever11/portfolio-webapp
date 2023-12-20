@@ -79,6 +79,21 @@
       "courseId": "CMSC 691",
       "courseName": "Malware Analysis",
       "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CMSC 621",
+      "courseName": "Advanced Operating Systems",
+      "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CMSC 671",
+      "courseName": "Principles of Artificial Intelligence",
+      "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CMSC 678",
+      "courseName": "Introduction To Machine Learning",
+      "courseLevel": "Graduate"
     }
   ]
 }
