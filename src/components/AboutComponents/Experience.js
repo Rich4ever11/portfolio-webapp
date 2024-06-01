@@ -35,6 +35,14 @@ export default function Experience() {
                       {experience.area}
                     </p>
                     <p className="text-sky-100">
+                      <span className="text-white">Employment Type</span>:{" "}
+                      {experience.employmentType}
+                    </p>
+                    <p className="text-sky-100">
+                      <span className="text-white">Location Type</span>:{" "}
+                      {experience.locationType}
+                    </p>
+                    <p className="text-sky-100">
                       <span className="text-white">Time Spent</span>:{" "}
                       {experience.timeTotal}
                     </p>

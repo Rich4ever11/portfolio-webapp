@@ -76,7 +76,10 @@ export default function ContactMe() {
                 Wish to stay in contact or hire me? Send me an email and I'll
                 get back to you as soon as possible
               </p>
-              <p className="py-2">• If an error occurs email me directly</p>
+              <p className="py-2">
+                Note: If an error occurs email me directly at ml60379@umbc.edu
+                or rich4ever11@protonmail.com :)
+              </p>
               <form action="#" class="space-y-8" onSubmit={sendEmail}>
                 <div>
                   <label

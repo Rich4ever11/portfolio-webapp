@@ -94,6 +94,26 @@
       "courseId": "CMSC 678",
       "courseName": "Introduction To Machine Learning",
       "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CMSC 641",
+      "courseName": "Design and Analysis of Algorithms",
+      "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CYBR 644",
+      "courseName": "Cyber Practitioner Development Lab",
+      "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CYBR 652",
+      "courseName": "Enterprise Security",
+      "courseLevel": "Graduate"
+    },
+    {
+      "courseId": "CMSC 696",
+      "courseName": "Independent Study For Interns And Co-Op Students",
+      "courseLevel": "Graduate"
     }
   ]
 }

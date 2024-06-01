@@ -1,10 +1,38 @@
 {
   "experiences": [
     {
+      "location": "MIT Lincoln Laboratory",
+      "position": "Software Engineer Intern",
+      "area": "Lexington, Massachusetts, United States",
+      "timeTotal": "Current",
+      "locationType": "On-site",
+      "employmentType": "Internship",
+      "duties": []
+    },
+    {
+      "location": "United States Department of Defense",
+      "position": "Computer Scientist",
+      "area": "Fort George G. Meade, Maryland, United States",
+      "timeTotal": "8 months",
+      "locationType": "On-site",
+      "employmentType": "Part-time",
+
+      "duties": [
+        "Developed multiple Python scripts designed to analyze and manipulate network traffic data from a diverse set of routers within the network infrastructure",
+        "Implemented and managed deployment of the YANG Suite to enhance streaming telemetry and streamline network management and configuration processes",
+        "Supported data analysis, tool deployment, and testing efforts in the lab enclave",
+        "Conducted extensive research on diverse network tools to assess their compatibility with our lab enclave, specializing in the collection of network performance data through the use of streaming telemetry",
+        "Provided research and analysis of artificial intelligence and machine learning on large data sets for modeling and cyber analytics"
+      ]
+    },
+    {
       "location": "University of Maryland, Baltimore County",
       "position": "Graduate Computer Science Teaching Assistant",
       "area": "Baltimore, Maryland, United States",
-      "timeTotal": "2 months (current)",
+      "timeTotal": "10 months",
+      "locationType": "Hybrid",
+      "employmentType": "Full-time",
+
       "duties": [
         "Collaborated with the professor to design and grade assignments, quizzes, and exams, maintaining a fair and consistent grading process",
         "Conducted weekly office hours, offering personalized support to clarify doubts, bolster learning, and enhance students' grasp of complex database concepts",
@@ -16,6 +44,9 @@
       "position": "Python Developer & Data Engineer",
       "area": "Laurel, Maryland, United States",
       "timeTotal": "3 months",
+      "locationType": "On-site",
+      "employmentType": "Internship",
+
       "duties": [
         "Developed 25+ ontologies specifically tailored for the Department of Defense’s artificial intelligence application MAVEN, enabling advanced data processing, knowledge representation, and enhanced decision-making capabilities in their artificial intelligence systems",
         "Utilized Python to seamlessly connect various military weapon classifications with our ontologies, enhancing data organization, and facilitating seamless semantic alignment",
@@ -29,6 +60,9 @@
       "position": "Software Developer & Static Software Analysis Researcher",
       "area": "Columbia, Maryland, United States",
       "timeTotal": "3 months",
+      "locationType": "Remote",
+      "employmentType": "Part-time",
+
       "duties": [
         "Conduct comprehensive program analyses, utilized static code analyzers, discussed tokenization, interpret errors, and delivered high-quality solutions",
         "Leveraged my expertise in Nextjs, Tailwind, and React, to create a web application displaying the output of multiple static software scans",
@@ -41,11 +75,13 @@
       "position": "Undergraduate Computer Science Teaching Assistant",
       "area": "Baltimore, Maryland, United States",
       "timeTotal": "11 months",
+      "locationType": "On-site",
+      "employmentType": "Part-time",
+
       "duties": [
         "Developed and facilitated interactive lab sessions designed to enhance students’ practical skills and understanding of course material",
         "Evaluated and assessed students progress through grading of homework assignments, projects and lab exercises",
-        "Assisted the instructor in delivering a comprehensive computer science course to a diverse student body of 500+ individuals, utilizing the Python programming language",
-        "Maintained the integrity of exams by proctoring and enforcing testing policies"
+        "Assisted the instructor in delivering a comprehensive computer science course to a diverse student body of 500+ individuals, utilizing the Python programming language"
       ]
     },
     {
@@ -53,12 +89,13 @@
       "position": "Software Engineer, Autonomy and Analysis",
       "area": "Aberdeen, Maryland, United States",
       "timeTotal": "3 months",
+      "locationType": "On-site",
+      "employmentType": "Internship",
+
       "duties": [
-        "Utilize my expertise in Vue, Vuetify, and Typescript to develop and modernize previous military software, resulting in a streamlined user experience and increased efficiency",
-        "Created and implemented modern UI elements that significantly improved navigation and task accomplishment for users",
-        "Leveraged REST API to effectively retrieve and display relevant information on the webpage, while also saving user settings and preferences to the database for future reference",
-        "Performed comprehensive scans on web applications and programs, identifying and mitigating vulnerabilities to ensure the security and reliability of various pieces of software",
-        "Demonstrated my dedication to confidentiality by successfully obtaining and maintaining a secret clearance while working on projects related to software, automation and analysis"
+        "Utilized my expertise in Vue, Vuetify, and Typescript to develop and modernize internal U.S. military software, resulting in increased efficiency and improved user experience",
+        "Leveraged REST API to retrieve and display relevant information within the designated web application, along with saving user settings, preferences and critical information to the database for future reference",
+        "Performed comprehensive scans on various web applications and computer programs, identifying and mitigating vulnerabilities to ensure the security and reliability of various pieces of software"
       ]
     }
   ]
