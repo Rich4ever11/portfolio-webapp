@@ -18,9 +18,9 @@ export default function ArtWork() {
             <div className="display">
               <div className="artboard artboard-demo phone-1 bg-black">
                 <div className="carousel carousel-vertical ">
-                  {artList.map((art) => {
+                  {artList.map((art, index) => {
                     return (
-                      <div className="carousel-item">
+                      <div className="carousel-item" key={index}>
                         <img src={art} alt="" />
                       </div>
                     );

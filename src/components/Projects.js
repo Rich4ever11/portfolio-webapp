@@ -12,28 +12,15 @@ export default function Projects() {
           <div className="card lg:card-side bg-base-100 shadow-xl">
             <div className="card w-full bg-base-100 shadow-xl">
               <div className="items-center text-center">
-                <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono py-4">
-                  Projects
-                </h1>
-                <div className="px-10">
-                  <p className="md:text-lg text-sm font-thin">
-                    I have an impressive portfolio of diverse projects that I
-                    have successfully developed, completed, and continue to
-                    enhance over time. As a dedicated professional, I am
-                    committed to regularly updating this portfolio with new
-                    projects and consistently improving existing ones. This
-                    proactive approach reflects my drive for continuous growth
-                    and my unwavering passion for delivering exceptional
-                    results. I am excited to share my innovative projects with
-                    you and discuss how my skills and experiences can contribute
-                    to your organization's success
-                  </p>
+                <div className="divider my-10 py-10">
+                  <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono py-4">
+                    PROJECTS
+                  </h1>
                 </div>
-                <div className="divider"></div>
-                <div class="flex flex-wrap justify-items-center">
-                  {projectList.map((project) => {
+                <div className="flex flex-wrap justify-items-center">
+                  {projectList.map((project, index) => {
                     return (
-                      <div className="flex justify-center">
+                      <div className="flex justify-center" key={index}>
                         <ProjectCard
                           projectBanner={project.projectBanner}
                           projectName={project.projectName}

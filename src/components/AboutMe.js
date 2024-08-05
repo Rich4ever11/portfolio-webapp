@@ -18,9 +18,8 @@ export default function Body() {
             <div className="card lg:card-side bg-base-100 shadow-xl ">
               <div className="card w-full bg-base-100 shadow-xl">
                 <div className="card-body items-center text-center">
-                  <About />
-                  <div className="divider"></div>
                   <Experience />
+                  <About />
                 </div>
               </div>
             </div>

@@ -2,21 +2,29 @@
   "experiences": [
     {
       "location": "MIT Lincoln Laboratory",
-      "position": "Software Engineer Intern",
+      "position": "Full Stack Software Engineer Intern",
       "area": "Lexington, Massachusetts, United States",
-      "timeTotal": "Current",
+      "timeTotal": "4 months",
       "locationType": "On-site",
       "employmentType": "Internship",
-      "duties": []
+      "logo": "./static/logo/mitlogo.jpg",
+      "duties": [
+        "Developed the capability for operators to seamlessly create, read, update, and delete personal comments or observations regarding a specific selected aircraft using React w/ Typescript and KSQL, This facilitates collaborative insights and discussions on selected aircrafts being observed",
+        "Created the ability for users to initiate, halt, save, update, and delete geo detection regions represented by country borders, rectangles, circles and 4+ sided polygonal shapes within our anomaly aircraft detection system. Allowing operators to visually monitor and detect whether one or more aircraft have entered the designated regions of interest",
+        "Utilized CesiumJS to create customizable radar coverage assets, empowering operators to visualize altitude and detection range variations of designated radars on a global map. This functionality enables operators to monitor aircraft crossing these critical radar coverage zones in real-time",
+        "Programmed cross-page search functionality into the anomaly aircraft detection system, enabling operators to swiftly locate previously examined aircraft. This enhancement significantly accelerates operational efficiency by facilitating quick access to +1,000 aircraft data and insights",
+        "Implemented rigorous TypeScript type checking protocols to uphold code quality and maintainability standards prior to allowing developers to commit changes to the codebase",
+        "Worked with Docker to analyze and interpret logs, adequately troubleshooting containerized applications and code bases to pinpoint errors and optimize performance with precision"
+      ]
     },
     {
       "location": "United States Department of Defense",
-      "position": "Computer Scientist",
+      "position": "Next Level Leaders (Computer Scientist)",
       "area": "Fort George G. Meade, Maryland, United States",
       "timeTotal": "8 months",
       "locationType": "On-site",
       "employmentType": "Part-time",
-
+      "logo": "./static/logo/dodlogo.svg",
       "duties": [
         "Developed multiple Python scripts designed to analyze and manipulate network traffic data from a diverse set of routers within the network infrastructure",
         "Implemented and managed deployment of the YANG Suite to enhance streaming telemetry and streamline network management and configuration processes",
@@ -32,7 +40,7 @@
       "timeTotal": "10 months",
       "locationType": "Hybrid",
       "employmentType": "Full-time",
-
+      "logo": "./static/logo/umbclogo.png",
       "duties": [
         "Collaborated with the professor to design and grade assignments, quizzes, and exams, maintaining a fair and consistent grading process",
         "Conducted weekly office hours, offering personalized support to clarify doubts, bolster learning, and enhance students' grasp of complex database concepts",
@@ -46,7 +54,7 @@
       "timeTotal": "3 months",
       "locationType": "On-site",
       "employmentType": "Internship",
-
+      "logo": "./static/logo/apllogo.jpg",
       "duties": [
         "Developed 25+ ontologies specifically tailored for the Department of Defense’s artificial intelligence application MAVEN, enabling advanced data processing, knowledge representation, and enhanced decision-making capabilities in their artificial intelligence systems",
         "Utilized Python to seamlessly connect various military weapon classifications with our ontologies, enhancing data organization, and facilitating seamless semantic alignment",
@@ -56,13 +64,13 @@
       ]
     },
     {
-      "location": "Cyber Pack Ventures, Inc.",
+      "location": "Cyber Pack Ventures, Inc. w/ NIST",
       "position": "Software Developer & Static Software Analysis Researcher",
       "area": "Columbia, Maryland, United States",
       "timeTotal": "3 months",
       "locationType": "Remote",
       "employmentType": "Part-time",
-
+      "logo": "./static/logo/NIST.png",
       "duties": [
         "Conduct comprehensive program analyses, utilized static code analyzers, discussed tokenization, interpret errors, and delivered high-quality solutions",
         "Leveraged my expertise in Nextjs, Tailwind, and React, to create a web application displaying the output of multiple static software scans",
@@ -77,7 +85,7 @@
       "timeTotal": "11 months",
       "locationType": "On-site",
       "employmentType": "Part-time",
-
+      "logo": "./static/logo/umbclogo.png",
       "duties": [
         "Developed and facilitated interactive lab sessions designed to enhance students’ practical skills and understanding of course material",
         "Evaluated and assessed students progress through grading of homework assignments, projects and lab exercises",
@@ -91,7 +99,7 @@
       "timeTotal": "3 months",
       "locationType": "On-site",
       "employmentType": "Internship",
-
+      "logo": "./static/logo/armylogo.png",
       "duties": [
         "Utilized my expertise in Vue, Vuetify, and Typescript to develop and modernize internal U.S. military software, resulting in increased efficiency and improved user experience",
         "Leveraged REST API to retrieve and display relevant information within the designated web application, along with saving user settings, preferences and critical information to the database for future reference",

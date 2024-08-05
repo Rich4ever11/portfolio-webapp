@@ -1,82 +1,102 @@
-import React, { useState } from "react";
+import ClassCard from "../ClassesCard/ClassCard";
 import classes from "../../data/classes.json";
+import accomplishments from "../../data/accomplishments.json";
 
 export default function About() {
-  const [currPage, setCurrPage] = useState(1);
-  const classList = classes["classes"];
-  const pageIterator = 3;
-  const pageCount = Math.ceil(classList.length / pageIterator);
+  const gradClasses = classes["classes"].filter(
+    (course) => course.courseLevel === "Graduate"
+  );
+  const undergradClasses = classes["classes"].filter(
+    (course) => course.courseLevel === "Undergraduate"
+  );
 
-  function getNextPage() {
-    //goes to the next page of the file
-    if (currPage < pageCount) {
-      const newNextPage = currPage + 1;
-      setCurrPage(newNextPage);
-    }
-  }
+  const undergradWWUClasses = classes["classes"].filter(
+    (course) =>
+      course.courseLevel === "Undergraduate" && course.school === "WWU"
+  );
 
-  function getPrevPage() {
-    //goes to the previous page of the file
-    if (currPage > 1) {
-      const newPrevPage = currPage - 1;
-      setCurrPage(newPrevPage);
-    }
-  }
+  const UMBCAccomplishments = accomplishments["accomplishments"]["UMBC"];
+  const WWUAccomplishments = accomplishments["accomplishments"]["WWU"];
 
   return (
     <>
-      <img
-        src="./static/hero.jpg"
-        alt="Album"
-        className="rounded-full h-auto max-w-xs md:hidden p-2 border-8 border-sky-200 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-sky-100/50"
-      />
-      <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono pt-4">
-        About Me
-      </h1>
-      <p className="card-title py-6 md:text-lg text-sm font-thin">
-        I am currently engaged in the pursuit of a master's degree in Computer
-        Science at the highly regarded University of Maryland, Baltimore County
-        (UMBC). It gives me great pride to highlight that I have also earned my
-        undergraduate degree from UMBC, achieving a notable 3.6 GPA upon
-        graduation. Allow me to provide you with an overview of the extensive
-        range of courses I have effectively completed thus far
-      </p>
-      <div className="flex flex-col justify-center">
-        <div className="overflow-x-auto md:max-w-max max-w-xs font-mono">
-          <table className="table">
-            <thead>
-              <tr>
-                <th>Course ID</th>
-                <th>Course Name</th>
-                <th>Course Level</th>
-              </tr>
-            </thead>
-            <tbody>
-              {classList
-                .slice((currPage - 1) * pageIterator, currPage * pageIterator)
-                .map((classObject, index) => {
-                  return (
-                    <tr className="">
-                      <td>{classObject.courseId}</td>
-                      <td>{classObject.courseName}</td>
-                      <td>{classObject.courseLevel}</td>
-                    </tr>
-                  );
-                })}
-            </tbody>
-          </table>
+      <div className="divider my-10 py-10">
+        <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono pt-4">
+          EDUCATION
+        </h1>
+      </div>
+      <div className="flex flex-col">
+        <div className="card bg-black text-neutral-content w-auto">
+          <div className="card-body items-center text-center">
+            <div className="avatar">
+              <div className="w-48 rounded-full">
+                <img src={"./static/logo/umbclogo.png"} alt="" />
+              </div>
+            </div>
+            <div>
+              {UMBCAccomplishments.map((accomplishment, index) => (
+                <div
+                  className="badge badge-warning badge-outline font-mono m-1"
+                  key={index}
+                >
+                  {accomplishment}
+                </div>
+              ))}
+            </div>
+            <h2 className="lg:text-4xl text-2xl font-bold text-sky-100  font-mono pt-4">
+              UMBC Masters of Science (M.S.) in Computer Science
+            </h2>
+            <h3 className="lg:text-2xl text-xl font-bold text-sky-200  font-mono pt-4">
+              Baltimore, MD
+            </h3>
+            <p className="font-mono">Aug. 2023 – Dec. 2024 (In Progress)</p>
+            <div>
+              <ClassCard classList={gradClasses} />
+            </div>
+            <h2 className="lg:text-4xl text-2xl font-bold text-sky-100  font-mono pt-4">
+              UMBC Bachelor of Science (B.S.) in Computer Science
+            </h2>
+            <h3 className="lg:text-2xl text-xl font-bold text-sky-200  font-mono pt-4">
+              Baltimore, MD
+            </h3>
+            <p className="font-mono">Aug. 2020 – May 2023 (Completed)</p>
+            <div>
+              <ClassCard classList={undergradClasses} />
+            </div>
+          </div>
         </div>
-        <div className="flex justify-center">
-          <div className="btn-group">
-            <button className="btn" onClick={getPrevPage}>
-              «
-            </button>
-            <button className="btn">
-              Page {currPage}/{pageCount}
-            </button>
-            <button className="btn" onClick={getNextPage}>
-              »
-            </button>
+      </div>
+
+      <div className="flex flex-col">
+        <div className="divider"></div>
+        <div className="card bg-black text-neutral-content w-auto">
+          <div className="card-body items-center text-center">
+            <div className="avatar">
+              <div className="w-48 rounded-full">
+                <img src={"./static/logo/wwulogo.png"} alt="" />
+              </div>
+            </div>
+            <div>
+              {WWUAccomplishments.map((accomplishment, index) => (
+                <div
+                  className="badge badge-success badge-outline font-mono m-1"
+                  key={index}
+                >
+                  {accomplishment}
+                </div>
+              ))}
+            </div>
+            <h2 className="lg:text-4xl text-2xl font-bold text-sky-100 font-mono pt-4">
+              William Woods University Bachelor of Science (B.S.) in
+              Cybersecurity Studies & Management Information Systems
+            </h2>
+            <h3 className="lg:text-2xl text-xl font-bold text-sky-200  font-mono pt-4">
+              Fulton, MO
+            </h3>
+            <p className="font-mono">Aug. 2019 – Apr. 2020 (Transferred)</p>
+            <div>
+              <ClassCard classList={undergradWWUClasses} />
+            </div>
           </div>
         </div>
       </div>

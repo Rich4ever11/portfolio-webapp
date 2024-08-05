@@ -6,28 +6,36 @@ export default function Experience() {
 
   return (
     <div>
-      <h1 className="lg:text-7xl text-4xl font-bold text-sky-200 font-mono">
-        Experience
-      </h1>
-      <p className="card-title py-6 md:text-lg text-sm font-thin">
-        Allow me to present a comprehensive compilation of my past work
-        experiences, where I have consistently honed and enhanced a diverse
-        range of skills. These opportunities have not only strengthened my
-        communication prowess but have also propelled my development skills to
-        new heights, among various other invaluable accomplishments
-      </p>
-      <div className="flex flex-col space-x-4 font-mono">
-        {experienceList.map((experience) => {
+      <img
+        src="./static/hero.jpg"
+        alt="Album"
+        className="rounded-full h-auto w-auto md:hidden p-2 border-8 border-sky-200 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-sky-100/50 mb-6"
+      />
+
+      <div className="divider my-10 py-10">
+        <h1 className="lg:text-7xl text-4xl font-bold text-sky-100 font-mono">
+          EXPERIENCE
+        </h1>
+      </div>
+      <div className="flex flex-col font-mono">
+        {experienceList.map((experience, index) => {
           return (
             <div
-              tabIndex={0}
-              className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+              tabIndex={index}
+              key={index}
+              className="collapse collapse-open border border-base-300 bg-black rounded-box my-2 "
             >
               <div className="collapse-title text-xl font-medium">
                 <span className="text-white">{experience.position}</span> -{" "}
                 {experience.location}
               </div>
-              <div className="collapse-content">
+
+              <div className="collapse-content m-8">
+                <div className="avatar">
+                  <div className="w-24 rounded-full">
+                    <img src={experience.logo} alt="" />
+                  </div>
+                </div>
                 {
                   <>
                     <p className="text-sky-100">
@@ -49,9 +57,13 @@ export default function Experience() {
                   </>
                 }
                 <div className="divider"></div>
-                <ul class="list-disc">
-                  {experience.duties.map((duty) => {
-                    return <li className="py-2">{duty}</li>;
+                <ul className="list-disc">
+                  {experience.duties.map((duty, index) => {
+                    return (
+                      <li className="py-2" key={index}>
+                        {duty}
+                      </li>
+                    );
                   })}
                 </ul>
               </div>

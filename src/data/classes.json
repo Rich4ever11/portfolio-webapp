@@ -1,119 +1,155 @@
 {
   "classes": [
     {
+      "courseId": "IS 100L",
+      "courseName": "Cloud Computing",
+      "courseLevel": "Undergraduate",
+      "school": "WWU"
+    },
+    {
+      "courseId": "IS 200L",
+      "courseName": "Introduction to Cybersecurity",
+      "courseLevel": "Undergraduate",
+      "school": "WWU"
+    },
+
+    {
       "courseId": "CMSC 201",
       "courseName": "Computer Science I",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 202",
       "courseName": "Computer Science II",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 203",
       "courseName": "Discrete Structures",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 313",
       "courseName": "Computer Organization and Assembly Language Programming",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 304",
       "courseName": "Social and Ethical Issues in Information Technology",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 331",
       "courseName": "Principles of Programming Language",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 411",
       "courseName": "Computer Architecture",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 441",
       "courseName": "Design and Analysis of Algorithms",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 421",
       "courseName": "Principles of Operating Systems",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 426",
       "courseName": "Principles of Computer Security",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 447",
       "courseName": "Software Engineering I",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 481",
       "courseName": "Computer Networks",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 461",
       "courseName": "Database Management Systems",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 437",
       "courseName": "Graphical User Interface Programming",
-      "courseLevel": "Undergraduate"
+      "courseLevel": "Undergraduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 687",
       "courseName": "Introduction To Network Security",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 691",
       "courseName": "Malware Analysis",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 621",
       "courseName": "Advanced Operating Systems",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 671",
       "courseName": "Principles of Artificial Intelligence",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 678",
       "courseName": "Introduction To Machine Learning",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 641",
       "courseName": "Design and Analysis of Algorithms",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CYBR 644",
       "courseName": "Cyber Practitioner Development Lab",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CYBR 652",
       "courseName": "Enterprise Security",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     },
     {
       "courseId": "CMSC 696",
       "courseName": "Independent Study For Interns And Co-Op Students",
-      "courseLevel": "Graduate"
+      "courseLevel": "Graduate",
+      "school": "UMBC"
     }
   ]
 }

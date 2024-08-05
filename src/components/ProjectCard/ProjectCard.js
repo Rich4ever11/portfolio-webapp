@@ -32,8 +32,12 @@ export default function ProjectCard({
           <p className="text-white font-thin">{description}</p>
           <div className="divider"></div>
           <div className="card-actions justify-end text-white">
-            {languagesUsed.map((tool) => {
-              return <div className="badge badge-outline">{tool}</div>;
+            {languagesUsed.map((tool, index) => {
+              return (
+                <div className="badge badge-outline" key={index}>
+                  {tool}
+                </div>
+              );
             })}
           </div>
         </div>

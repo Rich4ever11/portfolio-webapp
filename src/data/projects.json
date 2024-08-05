@@ -80,6 +80,14 @@
       "languagesUsed": ["Vuejs", "Firebase"]
     },
     {
+      "projectBanner": "./static/projectImg/creatorverse.png",
+      "projectName": "Creator Verse",
+      "vidLink": "",
+      "githubLink": "https://github.com/Rich4ever11/creatorverse",
+      "description": "In my application for the Code Path Advanced Web Development course, I developed a robust feature set allowing users to seamlessly add, delete, and edit creator profiles. This project showcased my ability to build intuitive, dynamic web applications and played a crucial role in my acceptance into the advanced course. It not only demonstrated my technical proficiency but also my commitment to creating user-centric solutions.",
+      "languagesUsed": ["React", "Typescript", "ChakraUI"]
+    },
+    {
       "projectBanner": "./static/projectImg/redditBanner.jpg",
       "projectName": "Reddit Clone",
       "vidLink": "",
