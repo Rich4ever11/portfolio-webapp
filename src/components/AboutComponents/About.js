@@ -36,7 +36,7 @@ export default function About() {
             <div>
               {UMBCAccomplishments.map((accomplishment, index) => (
                 <div
-                  className="badge badge-warning badge-outline font-mono m-1"
+                  className="badge badge-warning badge-outline font-mono m-1 p-4"
                   key={index}
                 >
                   {accomplishment}
@@ -79,7 +79,7 @@ export default function About() {
             <div>
               {WWUAccomplishments.map((accomplishment, index) => (
                 <div
-                  className="badge badge-success badge-outline font-mono m-1"
+                  className="badge badge-success badge-outline font-mono m-1 p-6"
                   key={index}
                 >
                   {accomplishment}
