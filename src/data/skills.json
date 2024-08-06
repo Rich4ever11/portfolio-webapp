@@ -1,0 +1,101 @@
+{
+  "programming_languages": [
+    {
+      "name": "Python",
+      "proficeny": "Highly Proficient",
+      "progress": 83,
+      "logo_path": "./static/codingLogo/pythonLogo.jpg"
+    },
+    {
+      "name": "Javascript",
+      "proficeny": "Proficient",
+      "progress": 79,
+      "logo_path": "./static/codingLogo/javascriptLogo.png"
+    },
+    {
+      "name": "SQL",
+      "proficeny": "Proficient",
+      "progress": 78,
+      "logo_path": "./static/codingLogo/sqllogo.png"
+    },
+    {
+      "name": "Typescript",
+      "proficeny": "Highly Proficient",
+      "progress": 87,
+      "logo_path": "./static/codingLogo/typescriptlogo.png"
+    },
+    {
+      "name": "HTML/CSS",
+      "proficeny": "Highly Proficient",
+      "progress": 84,
+      "logo_path": "./static/codingLogo/htmllogo.jpg"
+    },
+    {
+      "name": "C",
+      "proficeny": "Intermediate",
+      "progress": 75,
+      "logo_path": "./static/codingLogo/Clogo.png"
+    },
+    {
+      "name": "C++",
+      "proficeny": "Advanced",
+      "progress": 76,
+      "logo_path": "./static/codingLogo/Cpplogo.png"
+    },
+    {
+      "name": "C#",
+      "proficeny": "Intermediate",
+      "progress": 75,
+      "logo_path": "./static/codingLogo/Csharplogo.png"
+    },
+    {
+      "name": "Java",
+      "proficeny": "Intermediate",
+      "progress": 75,
+      "logo_path": "./static/codingLogo/javalogo.png"
+    },
+    {
+      "name": "Tailwind CSS",
+      "proficeny": "Proficient",
+      "progress": 80,
+      "logo_path": "./static/codingLogo/tailwindlogo.png"
+    },
+    {
+      "name": "KSQL",
+      "proficeny": "Proficient",
+      "progress": 79,
+      "logo_path": "./static/codingLogo/ksqllogo.webp"
+    },
+    {
+      "name": "Kafka",
+      "proficeny": "Proficient",
+      "progress": 79,
+      "logo_path": "./static/codingLogo/kafkalogo.webp"
+    }
+  ],
+  "libraries": [
+    "React",
+    "Vue",
+    "Node.js",
+    "Nextjs",
+    "Flask",
+    "Qt",
+    "Material UI",
+    "Daisy UI",
+    "Chakra UI",
+    "Pandas",
+    "Geopandas",
+    "Cesium"
+  ],
+  "tools": [
+    "Nmap",
+    "Wireshark",
+    "Git",
+    "GitHub",
+    "Docker",
+    "Jenkins",
+    "Visual Studio Code",
+    "Postman",
+    "AWS"
+  ]
+}

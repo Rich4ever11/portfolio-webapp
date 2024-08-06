@@ -1,6 +1,8 @@
 import React from "react";
 import Experience from "./AboutComponents/Experience";
 import About from "./AboutComponents/About";
+import Skills from "./AboutComponents/Skills";
+// import Certificates from "./AboutComponents/Certificates";
 
 export default function Body() {
   return (
@@ -13,6 +15,7 @@ export default function Body() {
               alt="Album"
               className="rounded-full p-2 border-8 border-sky-200 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-sky-100/50"
             />
+            <Skills />
           </figure>
           <div className="md:w-10/12 w-full p-8">
             <div className="card lg:card-side bg-base-100 shadow-xl ">
@@ -20,6 +23,7 @@ export default function Body() {
                 <div className="card-body items-center text-center">
                   <Experience />
                   <About />
+                  {/* <Certificates /> */}
                 </div>
               </div>
             </div>

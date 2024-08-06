@@ -57,14 +57,14 @@ export default function ProjectCard({ classList }) {
         </div>
         {pageCount > 1 && (
           <div className="flex justify-center">
-            <div className="join">
-              <button className="join-item btn" onClick={getPrevPage}>
+            <div className="join ">
+              <button className="join-item btn bg-black" onClick={getPrevPage}>
                 «
               </button>
-              <button className="join-item btn">
+              <button className="join-item btn bg-black">
                 Page {currPage}/{pageCount}
               </button>
-              <button className="join-item btn" onClick={getNextPage}>
+              <button className="join-item btn bg-black" onClick={getNextPage}>
                 »
               </button>
             </div>

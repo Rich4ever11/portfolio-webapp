@@ -4,10 +4,11 @@ import accomplishments from "../../data/accomplishments.json";
 
 export default function About() {
   const gradClasses = classes["classes"].filter(
-    (course) => course.courseLevel === "Graduate"
+    (course) => course.courseLevel === "Graduate" && course.school === "UMBC"
   );
   const undergradClasses = classes["classes"].filter(
-    (course) => course.courseLevel === "Undergraduate"
+    (course) =>
+      course.courseLevel === "Undergraduate" && course.school === "UMBC"
   );
 
   const undergradWWUClasses = classes["classes"].filter(
@@ -29,7 +30,7 @@ export default function About() {
         <div className="card bg-black text-neutral-content w-auto">
           <div className="card-body items-center text-center">
             <div className="avatar">
-              <div className="w-48 rounded-full">
+              <div className="ring-warning ring-offset-base-100 w-48 rounded-full ring ring-offset-2">
                 <img src={"./static/logo/umbclogo.png"} alt="" />
               </div>
             </div>
@@ -54,7 +55,8 @@ export default function About() {
               <ClassCard classList={gradClasses} />
             </div>
             <h2 className="lg:text-4xl text-2xl font-bold text-sky-100  font-mono pt-4">
-              UMBC Bachelor of Science (B.S.) in Computer Science
+              UMBC Bachelor of Science (B.S.) in Computer Science (Cybersecurity
+              Track)
             </h2>
             <h3 className="lg:text-2xl text-xl font-bold text-sky-200  font-mono pt-4">
               Baltimore, MD
@@ -72,7 +74,7 @@ export default function About() {
         <div className="card bg-black text-neutral-content w-auto">
           <div className="card-body items-center text-center">
             <div className="avatar">
-              <div className="w-48 rounded-full">
+              <div className="ring-green-600 ring-offset-base-100 w-48 rounded-full ring ring-offset-2">
                 <img src={"./static/logo/wwulogo.png"} alt="" />
               </div>
             </div>

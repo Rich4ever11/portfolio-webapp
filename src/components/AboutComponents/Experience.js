@@ -32,7 +32,7 @@ export default function Experience() {
 
               <div className="collapse-content m-8">
                 <div className="avatar">
-                  <div className="w-24 rounded-full">
+                  <div className="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
                     <img src={experience.logo} alt="" />
                   </div>
                 </div>
