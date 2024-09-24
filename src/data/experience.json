@@ -1,6 +1,20 @@
 {
   "experiences": [
     {
+      "location": "NASA Goddard Institute for Space Studies",
+      "position": "Software Engineer Intern",
+      "area": "New York City, New York, United States",
+      "timeTotal": "3 month",
+      "locationType": "Remote",
+      "employmentType": "Internship",
+      "logo": "./static/logo/nasalogo.jpg",
+      "duties": [
+        "Designed an interactive web application using React.js, TypeScript, and Python to visualize climate change data on a dynamic map and manage multiple python scripts, streamlining the analysis of data and the integrating multiple python scripts from various authors",
+        "Created multiple programs that upscales and downscales geographical climate data using python, rasterio, numpy, xarray, netcdf, and matplotlib, Improving climate change data analysis between various climate models",
+        "Preformed data parsing and upscaling on climate related data dating back 25+ years, automating the process of transforming climate change data and continuing the analysis of historical climate change data"
+      ]
+    },
+    {
       "location": "MIT Lincoln Laboratory",
       "position": "Full Stack Software Engineer Intern",
       "area": "Lexington, Massachusetts, United States",
