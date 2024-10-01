@@ -17,7 +17,7 @@
       "languagesUsed": ["React", "Typescript", "ChakraUI"]
     },
     {
-      "projectBanner": "./static/projectImg/netflixBanner.png",
+      "projectBanner": "./static/projectImg/netflix-clone.gif",
       "projectName": "Netflix Clone",
       "vidLink": "",
       "demoLink": "https://netflix-clone-gilt-eight.vercel.app/",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "projectBanner": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Baltimore%2C_Maryland.svg",
+      "projectBanner": "./static/projectImg/baltimoreCrimeDashboardGif.gif",
       "projectName": "Baltimore City Covid & Crime Tracker",
       "vidLink": "",
       "demoLink": "",
