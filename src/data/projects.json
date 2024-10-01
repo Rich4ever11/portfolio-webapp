@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "projectBanner": "./static/projectImg/cpp_scanner.gif",
+      "projectName": "Static C++ Scanner",
+      "vidLink": "",
+      "githubLink": "https://github.com/DrewBarlow/CPPCheckDashboard/tree/richDeveloper/cppcyberwebapp",
+      "description": "Designed and implemented a cutting-edge web application utilizing Python, Next.js, React, and Tailwind CSS to seamlessly interpret and visually present results from Cppcheck. This project not only showcases my technical expertise but also demonstrates my ability to deliver intuitive user experiences and leverage modern technologies for real-world applications.",
+      "languagesUsed": ["React", "Tailwind CSS", "Daisy UI", "Python", "C++"]
+    },
+    {
       "projectBanner": "./static/projectImg/dragonball.gif",
       "projectName": "Dragon Ball List",
       "vidLink": "",
@@ -35,7 +43,7 @@
       ]
     },
     {
-      "projectBanner": "./static/projectImg/vuln-scanning.png",
+      "projectBanner": "./static/projectImg/portScanner.gif",
       "projectName": "Port & Vulnerability Scanner",
       "vidLink": "https://drive.google.com/file/d/13LvBGpZYm_eBItnQJ63rgHvHxuuJHHE1/view?usp=sharing",
       "demoLink": "",
@@ -44,7 +52,7 @@
       "languagesUsed": ["C#", "Visual Studio", "Windows Forms"]
     },
     {
-      "projectBanner": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Maryland.svg",
+      "projectBanner": "./static/projectImg/marylandForum.gif",
       "projectName": "Maryland Forum",
       "vidLink": "https://drive.google.com/file/d/1tB9FKjhT9QH5MKXS7xNo8Cj1gEa8iJlk/view?usp=sharing",
       "demoLink": "",
@@ -69,7 +77,7 @@
       "languagesUsed": ["React", "Flask", "SQL alchemy"]
     },
     {
-      "projectBanner": "./static/projectImg/connect4.png",
+      "projectBanner": "./static/projectImg/connect4-board-games.gif",
       "projectName": "Connect Four Within The C Kernel",
       "vidLink": "",
       "demoLink": "",
