@@ -1,6 +1,22 @@
 {
   "projects": [
     {
+      "projectBanner": "./static/projectImg/dragonball.gif",
+      "projectName": "Dragon Ball List",
+      "vidLink": "",
+      "githubLink": "https://github.com/Rich4ever11/creatorverse",
+      "description": "I developed an engaging web application that showcases characters from my favorite manga, Dragon Ball. Users can effortlessly browse through a variety of characters, access detailed character pages, and search for specific characters by name. This project highlights my skills in web development and my passion for creating user-friendly experiences.",
+      "languagesUsed": ["HTML", "CSS", "Vanilla JS", "Postgres"]
+    },
+    {
+      "projectBanner": "./static/projectImg/creatorverse.gif",
+      "projectName": "Creator Verse",
+      "vidLink": "",
+      "githubLink": "https://github.com/Rich4ever11/creatorverse",
+      "description": "In my application for the Code Path Advanced Web Development course, I developed a robust feature set allowing users to seamlessly add, delete, and edit creator profiles. This project showcased my ability to build intuitive, dynamic web applications and played a crucial role in my acceptance into the advanced course. It not only demonstrated my technical proficiency but also my commitment to creating user-centric solutions.",
+      "languagesUsed": ["React", "Typescript", "ChakraUI"]
+    },
+    {
       "projectBanner": "./static/projectImg/netflixBanner.png",
       "projectName": "Netflix Clone",
       "vidLink": "",
@@ -78,23 +94,6 @@
       "githubLink": "https://github.com/Rich4ever11/vueforum",
       "description": "Vue Forum is a dynamic online platform powered by Vue.js, designed to facilitate collaboration and knowledge-sharing among Vue.js enthusiasts. It provides a vibrant community where users can connect, learn, and grow together. With its user-friendly interface and responsive design, Vue Forum offers an intuitive experience across devices. Engage in discussions, ask questions, and gain valuable insights from fellow members. Join the Vue Forum community to explore, contribute, and expand your understanding of Vue.js and related topics.",
       "languagesUsed": ["Vuejs", "Firebase"]
-    },
-    {
-      "projectBanner": "./static/projectImg/creatorverse.png",
-      "projectName": "Creator Verse",
-      "vidLink": "",
-      "githubLink": "https://github.com/Rich4ever11/creatorverse",
-      "description": "In my application for the Code Path Advanced Web Development course, I developed a robust feature set allowing users to seamlessly add, delete, and edit creator profiles. This project showcased my ability to build intuitive, dynamic web applications and played a crucial role in my acceptance into the advanced course. It not only demonstrated my technical proficiency but also my commitment to creating user-centric solutions.",
-      "languagesUsed": ["React", "Typescript", "ChakraUI"]
-    },
-    {
-      "projectBanner": "./static/projectImg/redditBanner.jpg",
-      "projectName": "Reddit Clone",
-      "vidLink": "",
-      "demoLink": "",
-      "githubLink": "",
-      "description": "Currently Working on a clone of the famouse web application Reddit. It will contain all the features of the famous web application",
-      "languagesUsed": ["Nextjs", "ChakraUI"]
     }
   ]
 }
