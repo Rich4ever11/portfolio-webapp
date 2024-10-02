@@ -147,7 +147,25 @@
     },
     {
       "courseId": "CMSC 696",
-      "courseName": "Independent Study For Interns And Co-Op Students",
+      "courseName": "Independent Study For Interns And Co-Op Students @ (MIT)",
+      "courseLevel": "Graduate",
+      "school": "UMBC"
+    },
+    {
+      "courseId": "CMSC 691",
+      "courseName": "Active Cyber Defense",
+      "courseLevel": "Graduate",
+      "school": "UMBC"
+    },
+    {
+      "courseId": "CMSC 696",
+      "courseName": "Independent Study For Interns And Co-Op Students @ (NASA)",
+      "courseLevel": "Graduate",
+      "school": "UMBC"
+    },
+    {
+      "courseId": "SENG 645",
+      "courseName": "Advanced Software Engineering",
       "courseLevel": "Graduate",
       "school": "UMBC"
     }
