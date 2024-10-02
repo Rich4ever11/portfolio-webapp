@@ -14,7 +14,7 @@
       "vidLink": "",
       "githubLink": "https://github.com/Rich4ever11/creatorverse",
       "description": "I developed an engaging web application that showcases characters from my favorite manga, Dragon Ball. Users can effortlessly browse through a variety of characters, access detailed character pages, and search for specific characters by name. This project highlights my skills in web development and my passion for creating user-friendly experiences.",
-      "languagesUsed": ["HTML", "CSS", "Vanilla JS", "Postgres"]
+      "languagesUsed": ["HTML", "CSS", "Vanilla JS", "PostgreSQL"]
     },
     {
       "projectBanner": "./static/projectImg/creatorverse.gif",
