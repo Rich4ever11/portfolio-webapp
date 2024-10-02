@@ -103,7 +103,7 @@
       "languagesUsed": ["C", "Batch Files"]
     },
     {
-      "projectBanner": "./static/projectImg/passGenBG.avif",
+      "projectBanner": "./static/projectImg/password.gif",
       "projectName": "Password Generator",
       "vidLink": "",
       "demoLink": "",
