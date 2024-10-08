@@ -71,7 +71,7 @@ export default function Navbar() {
       </div>
       <div className="navbar-end">
         <a
-          href="https://docs.google.com/document/d/1dV5M6BaV3g42AAP7hUvac9MA-FQ1iB_J6U2HqbQ4NDo/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1tH8tT1ueMBclmEKFv6ytasD8vAXV7pYU/view?usp=sharing"
           className="btn"
         >
           View Resume

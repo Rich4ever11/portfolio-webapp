@@ -13,11 +13,17 @@ export default function Experience() {
       />
 
       <div className="divider my-10 py-10">
-        <h1 className="lg:text-7xl text-4xl font-bold text-sky-100 font-mono">
+        <h1
+          className="lg:text-7xl text-4xl font-thin text-sky-100 italic"
+          style={{ textShadow: "8px 8px 8px black" }}
+        >
           EXPERIENCE
         </h1>
       </div>
-      <div className="overflow-y-auto h-screen rounded-md p-2 ">
+      <div
+        className="overflow-y-auto rounded-md p-2"
+        style={{ height: "750px" }}
+      >
         <div className="flex flex-col font-mono">
           {experienceList.map((experience, index) => {
             return (

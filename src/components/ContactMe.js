@@ -34,10 +34,13 @@ export default function ContactMe() {
       <div className="mockup-window border-sky-100 bg-base-300">
         <div className="divider"></div>
         <div className="flex flex-col space-y-2 justify-center navbar">
-          <h1 className="lg:text-7xl text-4xl font-bold text-white font-mono">
+          <h1
+            className="lg:text-7xl text-4xl font-thin text-sky-100 italic pb-4"
+            style={{ textShadow: "8px 8px 8px black" }}
+          >
             CONTACT&nbsp;<span className="text-sky-100">ME</span>
           </h1>
-          <h2 className="text-lg font-mono">
+          <h2 className="text-lg">
             <BsTelephoneFill size={24} />
             &nbsp;xxx-xxx-xxxx
           </h2>
