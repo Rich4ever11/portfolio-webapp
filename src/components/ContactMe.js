@@ -35,7 +35,7 @@ export default function ContactMe() {
         <div className="divider"></div>
         <div className="flex flex-col space-y-2 justify-center navbar">
           <h1
-            className="lg:text-7xl text-4xl font-thin text-sky-100 italic pb-4"
+            className="lg:text-7xl text-4xl font-thin text-sky-100 italic pb-4 font-mono"
             style={{ textShadow: "8px 8px 8px black" }}
           >
             CONTACT&nbsp;<span className="text-sky-100">ME</span>

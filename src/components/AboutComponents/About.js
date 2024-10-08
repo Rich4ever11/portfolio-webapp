@@ -23,7 +23,7 @@ export default function About() {
     <>
       <div className="divider my-10 py-10">
         <h1
-          className="lg:text-7xl text-4xl font-thin text-sky-100 italic"
+          className="lg:text-7xl text-4xl font-thin text-sky-100 italic font-mono"
           style={{ textShadow: "8px 8px 8px black" }}
         >
           EDUCATION
