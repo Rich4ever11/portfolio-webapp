@@ -23,7 +23,10 @@ export default function Hero() {
             <h2 className="lg:text-4xl text-3xl font-light text-sky-100 italic">
               Software Development & Cybersecurity
             </h2>
-            <h1 className="lg:text-8xl text-7xl font-bold text-white font-mono italic">
+            <h1
+              className="lg:text-8xl text-7xl font-bold text-white font-mono italic"
+              style={{ textShadow: "8px 8px 8px black" }}
+            >
               Hi, I'm <span className="text-sky-200">Richard A.</span>
             </h1>
 
