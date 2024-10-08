@@ -33,31 +33,33 @@ export default function Experience() {
                 className="collapse collapse-open border border-base-300 bg-black rounded-box my-2 "
               >
                 <div className="collapse-title text-xl font-medium">
-                  <span className="text-white">{experience.position}</span> -{" "}
-                  {experience.location}
+                  <div className="font-mono text-cyan-50 text-2xl font-semibold italic">
+                    {experience.location}
+                  </div>
+                  <div className="text-white">{experience.position}</div>
                 </div>
 
-                <div className="collapse-content m-8">
-                  <div className="avatar">
+                <div className="collapse-content ">
+                  <div className="avatar py-6">
                     <div className="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
                       <img src={experience.logo} alt="" />
                     </div>
                   </div>
                   {
                     <>
-                      <p className="text-sky-100">
+                      <p className="text-sky-100 italic">
                         <span className="text-white">Location</span>:{" "}
                         {experience.area}
                       </p>
-                      <p className="text-sky-100">
+                      <p className="text-sky-100 italic">
                         <span className="text-white">Employment Type</span>:{" "}
                         {experience.employmentType}
                       </p>
-                      <p className="text-sky-100">
+                      <p className="text-sky-100 italic">
                         <span className="text-white">Location Type</span>:{" "}
                         {experience.locationType}
                       </p>
-                      <p className="text-sky-100">
+                      <p className="text-sky-100 italic">
                         <span className="text-white">Time Spent</span>:{" "}
                         {experience.timeTotal}
                       </p>
