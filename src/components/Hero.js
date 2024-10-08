@@ -19,29 +19,23 @@ export default function Hero() {
               className="lg:max-w-md sm:max-lg max-base rounded-xl transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black"
             />
           </div>
-          <div className="flex flex-col px-4">
-            <h2 className="lg:text-4xl text-3xl font-light text-sky-100">
+          <div className="flex flex-col px-4 justify-center ">
+            <h2 className="lg:text-4xl text-3xl font-light text-sky-100 italic">
               Software Development & Cybersecurity
             </h2>
-            <h1 className="lg:text-8xl text-7xl font-bold text-white font-mono">
-              Hi, I'm <br className="block md:hidden" />
-              <span className="relative">
-                <span className="text-sky-200">Richard A.</span>
-              </span>
+            <h1 className="lg:text-8xl text-7xl font-bold text-white font-mono italic">
+              Hi, I'm <span className="text-sky-200">Richard A.</span>
             </h1>
 
             <p className="py-4 md:text-lg text-xs text-white font-thin">
-              Welcome to my website! Here, you will encounter a passionate
-              individual fully immersed in the captivating realms of software
-              development and cybersecurity. With an unyielding curiosity and an
-              unwavering commitment to remain at the vanguard of technological
-              advancements, I enthusiastically embark on a quest to explore,
-              share, and collaborate on state-of-the-art tools, techniques, and
-              strategies that forge a secure and innovative digital landscape.
-              Whether you seek profound insights, practical advice, or a
-              fruitful partnership, I extend a warm invitation to join me on
-              this exhilarating journey as we navigate the ever-evolving realm
-              of software development and cybersecurity hand in hand.
+              Welcome to my website! I started learning programming when I
+              entered my second year of college. Since then, I have fallen in
+              love with everything related to programming. My goal is to become
+              a 10x developer and create software that one day will be used by
+              millions. Here on my personal website, you will find the various
+              experiences I’ve had and the projects I’ve built. I hope you find
+              something that resonates with you and enjoy the overall look and
+              feel. Cheers! 🥂
             </p>
             <div className="flex flex-row space-x-4">
               <div className="card-actions my-4">
