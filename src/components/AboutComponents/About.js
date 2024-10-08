@@ -47,24 +47,34 @@ export default function About() {
                 </div>
               ))}
             </div>
-            <h2 className="lg:text-4xl text-2xl font-bold text-sky-100  font-mono pt-4">
-              UMBC Masters of Science (M.S.) in Computer Science
+            <h2
+              className="lg:text-4xl text-2xl font-thin text-sky-100 font-mono pt-4 italic "
+              style={{ textShadow: "4px 4px 4px #00293e" }}
+            >
+              Masters of Science in Computer Science
             </h2>
-            <h3 className="lg:text-2xl text-xl font-bold text-sky-200  font-mono pt-4">
+            <h3 className="lg:text-2xl text-xl font-thin text-sky-200  font-mono pt-4 italic">
               Baltimore, MD
             </h3>
-            <p className="font-mono">Aug. 2023 – Dec. 2024 (In Progress)</p>
+            <p className="font-mono italic">
+              Aug. 2023 – Dec. 2024 (In Progress)
+            </p>
             <div>
               <ClassCard classList={gradClasses} />
             </div>
-            <h2 className="lg:text-4xl text-2xl font-bold text-sky-100  font-mono pt-4">
-              UMBC Bachelor of Science (B.S.) in Computer Science (Cybersecurity
-              Track)
+            <div className="divider"></div>
+            <h2
+              className="lg:text-4xl text-2xl font-thin text-sky-100  font-mono pt-4 italic"
+              style={{ textShadow: "4px 4px 4px #00293e" }}
+            >
+              Bachelor of Science in Computer Science (Cybersecurity Track)
             </h2>
-            <h3 className="lg:text-2xl text-xl font-bold text-sky-200  font-mono pt-4">
+            <h3 className="lg:text-2xl text-xl font-thin text-sky-200  font-mono pt-4 italic">
               Baltimore, MD
             </h3>
-            <p className="font-mono">Aug. 2020 – May 2023 (Completed)</p>
+            <p className="font-mono font-thin italic">
+              Aug. 2020 – May 2023 (Completed)
+            </p>
             <div>
               <ClassCard classList={undergradClasses} />
             </div>
@@ -91,14 +101,19 @@ export default function About() {
                 </div>
               ))}
             </div>
-            <h2 className="lg:text-4xl text-2xl font-bold text-sky-100 font-mono pt-4">
-              William Woods University Bachelor of Science (B.S.) in
-              Cybersecurity Studies & Management Information Systems
+            <h2
+              className="lg:text-4xl text-2xl font-thin text-sky-100 font-mono pt-4 italic"
+              style={{ textShadow: "4px 4px 4px #00293e" }}
+            >
+              Bachelor of Science in Cybersecurity Studies & Management
+              Information Systems
             </h2>
-            <h3 className="lg:text-2xl text-xl font-bold text-sky-200  font-mono pt-4">
+            <h3 className="lg:text-2xl text-xl font-thin text-sky-200  font-mono pt-4 italic">
               Fulton, MO
             </h3>
-            <p className="font-mono">Aug. 2019 – Apr. 2020 (Transferred)</p>
+            <p className="font-mono font-thin italic">
+              Aug. 2019 – Apr. 2020 (Transferred)
+            </p>
             <div>
               <ClassCard classList={undergradWWUClasses} />
             </div>

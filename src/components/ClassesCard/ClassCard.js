@@ -25,7 +25,7 @@ export default function ProjectCard({ classList }) {
   return (
     <>
       <div className="divider">
-        <h1 className="lg:text-3xl text-2xl font-bold text-white font-mono pt-4">
+        <h1 className="lg:text-3xl text-2xl font-thin text-white font-mono pt-4 italic">
           Relevant Course Work
         </h1>
       </div>

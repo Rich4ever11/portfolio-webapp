@@ -9,9 +9,9 @@
       "employmentType": "Internship",
       "logo": "./static/logo/nasalogo.jpg",
       "duties": [
-        "Designed an interactive web application using React.js, TypeScript, and Python to visualize climate change data on a dynamic map and manage multiple python scripts, streamlining the analysis of data and the integrating multiple python scripts from various authors",
-        "Created multiple programs that upscales and downscales geographical climate data using python, rasterio, numpy, xarray, netcdf, and matplotlib, Improving climate change data analysis between various climate models",
-        "Preformed data parsing and upscaling on climate related data dating back 25+ years, automating the process of transforming climate change data and continuing the analysis of historical climate change data"
+        "Developed an interactive web application using React.js, TypeScript, and Python to visualize GeoTIFF data on a 2D map, convert NetCDF data to GeoTIFF for visualization, and manage/execute Python scripts for efficient data handling and improved user experience",
+        "Created multiple programs that upscales and downscales various geographical climate data using Python, Numpy, Xarray, NetCDF, and Rasterio, Improving climate change data analysis between various ModelE climate models",
+        "Preformed data parsing and upscaling on 250+ NetCDF files dating back 25+ years, automating the process of transforming climate data and continuing the analysis of historical climate data"
       ]
     },
     {
@@ -23,12 +23,11 @@
       "employmentType": "Internship",
       "logo": "./static/logo/mitlogo.jpg",
       "duties": [
-        "Developed the capability for operators to seamlessly create, read, update, and delete personal comments or observations regarding a specific selected aircraft using React w/ Typescript and KSQL, This facilitates collaborative insights and discussions on selected aircrafts being observed",
-        "Created the ability for users to initiate, halt, save, update, and delete geo detection regions represented by country borders, rectangles, circles and 4+ sided polygonal shapes within our anomaly aircraft detection system. Allowing operators to visually monitor and detect whether one or more aircraft have entered the designated regions of interest",
-        "Utilized CesiumJS to create customizable radar coverage assets, empowering operators to visualize altitude and detection range variations of designated radars on a global map. This functionality enables operators to monitor aircraft crossing these critical radar coverage zones in real-time",
-        "Programmed cross-page search functionality into the anomaly aircraft detection system, enabling operators to swiftly locate previously examined aircraft. This enhancement significantly accelerates operational efficiency by facilitating quick access to +1,000 aircraft data and insights",
-        "Implemented rigorous TypeScript type checking protocols to uphold code quality and maintainability standards prior to allowing developers to commit changes to the codebase",
-        "Worked with Docker to analyze and interpret logs, adequately troubleshooting containerized applications and code bases to pinpoint errors and optimize performance with precision"
+        "Leveraged React, Typescript, and Cesium to build dynamic, color-customizable radar coverage assets, empowering real-time global monitoring of aircraft within critical radar zones",
+        "Built cross-page search functionality using React, Typescript, and Python, accelerating access to 1,000+ aircraft and boosting operational efficiency",
+        "Designed a fully functional note taking system for real-time aircraft commentary between air defense personnel using Next.js, Python, and KSQL, boosting collaborative analysis and operational insights",
+        "Developed a dynamic geo-detection feature within our aircraft anomaly detection system using Cesium, React, Typescript and Python, enabling users to manage regions of interest using both country borders and multiple shapes, significantly improving real-time aircraft monitoring and detection",
+        "Enforced strict TypeScript type checking to ensure code quality and utilized Docker for precise error detection and performance optimization in containerized applications"
       ]
     },
     {

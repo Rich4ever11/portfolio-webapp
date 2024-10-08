@@ -30,18 +30,21 @@ export default function Experience() {
               <div
                 tabIndex={index}
                 key={index}
-                className="collapse collapse-open border border-base-300 bg-black rounded-box my-2 "
+                className="collapse collapse-open border border-base-300 bg-black rounded-box my-2"
               >
-                <div className="collapse-title text-xl font-medium">
-                  <div className="font-mono text-cyan-50 text-2xl font-semibold italic">
+                <div className="collapse-title text-xl font-medium px-0 pt-8">
+                  <div
+                    className="font-mono text-cyan-50 text-3xl font-semibold italic"
+                    style={{ textShadow: "4px 4px 4px #00293e" }}
+                  >
                     {experience.location}
                   </div>
                   <div className="text-white">{experience.position}</div>
                 </div>
 
-                <div className="collapse-content ">
+                <div className="collapse-content mx-10">
                   <div className="avatar py-6">
-                    <div className="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                    <div className="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2 ">
                       <img src={experience.logo} alt="" />
                     </div>
                   </div>
