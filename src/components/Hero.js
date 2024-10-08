@@ -39,7 +39,10 @@ export default function Hero() {
             </p>
             <div className="flex flex-row space-x-4">
               <div className="card-actions my-4">
-                <button className="btn btn-neutral-content h-12 w-32 text-xl font-light">
+                <button
+                  className="btn btn-neutral-content h-12 w-32 text-xl font-semibold text-white italic border-2 border-white"
+                  style={{ textShadow: "8px 8px 8px black" }}
+                >
                   <a href="#contactme">Hire Me</a>
                 </button>
               </div>

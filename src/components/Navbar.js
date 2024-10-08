@@ -73,10 +73,10 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end" style={{ textShadow: "8px 8px 8px black" }}>
+      <div className="navbar-end " style={{ textShadow: "8px 8px 8px black" }}>
         <a
           href="https://drive.google.com/file/d/1tH8tT1ueMBclmEKFv6ytasD8vAXV7pYU/view?usp=sharing"
-          className="btn transition ease-in-out delay-100"
+          className="btn transition ease-in-out delay-100  border-2 border-white text-white font-semibold italic"
         >
           View Resume
         </a>
