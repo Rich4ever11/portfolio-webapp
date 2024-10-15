@@ -18,6 +18,14 @@ export default function Footer() {
         </p>
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <button
+          className="btn btn-neutral-content h-12 w-42 text-xl font-semibold text-white italic border-2 border-white"
+          style={{ textShadow: "8px 8px 8px black" }}
+        >
+          <a href="https://github.com/Rich4ever11/portfolio-webapp">
+            View Code
+          </a>
+        </button>
         <button className="">
           <a href="https://github.com/Rich4ever11">
             <FaGithub size={42} />
