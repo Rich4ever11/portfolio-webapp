@@ -17,6 +17,20 @@
       "languagesUsed": ["HTML", "CSS", "Vanilla JS", "PostgreSQL"]
     },
     {
+      "projectBanner": "./static/projectImg/nasa_resampler.gif",
+      "projectName": "NASA NetCDF Resampler",
+      "vidLink": "https://drive.google.com/file/d/1avPWj7Tf7vnZ-Sdp3eDvItxE3DljsH0G/view?usp=sharing",
+      "githubLink": "https://github.com/Rich4ever11/giss_script_soft",
+      "description": "The giss_script_soft is a software application that allows users to upload, manipulate, and view both NetCDF and GeoTIFF files on an interactive Leaflet map. The purpose of this software is to enhance the analysis of NetCDF files by focusing on specific data within a NetCDF file using a two-dimensional map, facilitating the execution of related NetCDF scripts in an easy, interactive manner, and enabling users to view the output of the NetCDF files.",
+      "languagesUsed": [
+        "React",
+        "Tailwind CSS",
+        "Chackra UI",
+        "Python",
+        "Typescript"
+      ]
+    },
+    {
       "projectBanner": "./static/projectImg/recipeWebApp.gif",
       "projectName": "Open Custom Recipes",
       "vidLink": "https://drive.google.com/file/d/1OPQrqMYdtyLGkMQlVaruT6CH2wAeSpdG/view?usp=sharing",
