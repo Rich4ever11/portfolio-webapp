@@ -17,7 +17,7 @@ export default function ProjectCard({
         style={{ width: "500px" }}
       >
         <div className="py-4 overflow-x-scroll">
-          <h2 className="card-title md:text-4xl text-xl text-white font-thin divider divider-info px-2">
+          <h2 className="card-title md:text-4xl text-xl text-white font-thin divider px-2">
             {projectName}
           </h2>
         </div>
