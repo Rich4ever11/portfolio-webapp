@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
 
@@ -30,26 +29,26 @@ export default function ContactMe() {
   }
 
   return (
-    <div className="min-h-screen bg-black py-20 md:px-10 ">
-      <div className="mockup-window border-sky-100 bg-base-300">
+    <div className="min-h-screen bg-black py-20 md:px-10">
+      <div className="mockup-window border-gray-900 bg-base-300 border-4">
         <div className="divider"></div>
         <div className="flex flex-col space-y-2 justify-center navbar">
           <h1
-            className="lg:text-7xl text-4xl font-thin text-sky-100 italic pb-4 font-mono"
+            className="lg:text-7xl text-4xl font-thin text-sky-100 italic pb-4 font-mono divider py-4"
             style={{ textShadow: "8px 8px 8px black" }}
           >
             CONTACT&nbsp;<span className="text-sky-100">ME</span>
           </h1>
-          <h2 className="text-lg">
-            <BsTelephoneFill size={24} />
-            &nbsp;xxx-xxx-xxxx
-          </h2>
-          <h2 className="text-lg font-mono">
+          <h2 className="text-2xl font-mono font-thin">
             <MdEmail size={24} />
-            &nbsp;Richardartist80@Gmail.com
+            <a href="mailto:ml60379@umbc.edu">&nbsp;ml60379@umbc.edu&nbsp;</a>
+            {" | "}
+            <a href="mailto:Richardartist80@Gmail.com">
+              &nbsp;Richardartist80@Gmail.com
+            </a>
           </h2>
-          <h2 className="text-lg font-mono">
-            <ImLocation2 size={24} />
+          <h2 className="text-2xl font-mono font-thin">
+            <ImLocation2 size={24} className="shadow-black" />
             &nbsp;Columbia, Maryland United States of America
           </h2>
         </div>
