@@ -31,6 +31,22 @@
       ]
     },
     {
+      "projectBanner": "./static/projectImg/locconnect.gif",
+      "projectName": "Locconnect",
+      "vidLink": "https://drive.google.com/file/d/1xIvp3Da7mfimuLF_DKecCeVH_zypyMst/view?usp=sharing",
+      "githubLink": "https://github.com/Rich4ever11/code_path_final",
+      "description": "This project is a dynamic web application designed to foster meaningful connections between users around the world, whether for friendship or romance. The platform allows users to create profiles, explore others' profiles, and engage in meaningful interactions based on shared interests and proximity. The primary goal is to transition online conversations into real-world connections by offering a unique way for users to suggest locations or meeting places to one another.",
+      "languagesUsed": [
+        "React.js",
+        "Express.js",
+        "Firebase OAuth",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "NextUI",
+        "Vite"
+      ]
+    },
+    {
       "projectBanner": "./static/projectImg/recipeWebApp.gif",
       "projectName": "Open Custom Recipes",
       "vidLink": "https://drive.google.com/file/d/1OPQrqMYdtyLGkMQlVaruT6CH2wAeSpdG/view?usp=sharing",
