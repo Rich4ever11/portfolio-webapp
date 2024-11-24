@@ -9,6 +9,23 @@
       "languagesUsed": ["React", "Tailwind CSS", "Daisy UI", "Python", "C++"]
     },
     {
+      "projectBanner": "./static/projectImg/cybernetAI.gif",
+      "projectName": "Cybernet AI",
+      "vidLink": "https://drive.google.com/file/d/1nXCXwG-kxC_-TkS0Wn6145b1AL16vykz/view?usp=sharing",
+      "githubLink": "https://github.com/Rich4ever11/cybernet",
+      "description": "Cybernet AI is a cutting-edge, AI-powered cybersecurity platform designed to revolutionize digital security. At its core, it excels in document-based question and answer capabilities, but goes far beyond with an extensive suite of advanced tools, including port scanning, exploit search, password generation, data breach monitoring, and more. This comprehensive solution empowers organizations to stay ahead of emerging threats while streamlining security management with state-of-the-art, AI-driven technology.",
+      "languagesUsed": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "AWS DynamoDB",
+        "AWS S3",
+        "AWS Bedrock",
+        "Python",
+        "PostgreSQL"
+      ]
+    },
+    {
       "projectBanner": "./static/projectImg/dragonball.gif",
       "projectName": "Dragon Ball List",
       "vidLink": "https://drive.google.com/file/d/1R-PlJhsQEztrA383f7kbX2rxjocfTYcJ/view?usp=sharing",
