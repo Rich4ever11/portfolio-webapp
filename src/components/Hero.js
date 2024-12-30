@@ -12,25 +12,27 @@ export default function Hero() {
         }}
       >
         <div className="flex min-[1200px]:flex-row flex-col m-8">
-          <div className="mx-2 py-4 px-4 flex justify-center">
-            <img
-              src="./static/hero4.jpg"
-              alt="N/A"
-              className="lg:max-w-md sm:max-lg max-base rounded-xl transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black"
-            />
+          <div>
+            <div className="lg:mx-2 flex justify-center">
+              <img
+                src="./static/hero4.jpg"
+                alt="N/A"
+                className="lg:max-w-md border-8 border-cyan-50/5 rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-cyan-50"
+              />
+            </div>
           </div>
-          <div className="flex flex-col px-4 justify-center ">
-            <h2 className="lg:text-4xl text-3xl font-light text-sky-100 italic">
+          <div className="flex flex-col px-4 justify-center">
+            <h2 className="lg:text-5xl text-4xl font-light text-sky-100 italic">
               Software Development & Cybersecurity
             </h2>
             <h1
-              className="lg:text-8xl text-7xl font-bold text-white font-mono italic"
+              className="lg:text-[100px] text-[80px] font-bold text-white font-mono italic underline"
               style={{ textShadow: "8px 8px 8px black" }}
             >
-              Hi, I'm <span className="text-sky-200">Richard A.</span>
+              Richard N. <span className="text-sky-200 underline">Aja</span>
             </h1>
 
-            <p className="py-4 md:text-lg text-xs text-white font-thin">
+            <p className="py-4 md:text-xl text-md text-white font-thin">
               Welcome to my website! I started learning programming when I
               entered my second year of college. Since then, I have fallen in
               love with everything related to programming. My goal is to become
@@ -43,8 +45,8 @@ export default function Hero() {
             <div className="flex flex-row space-x-4">
               <div className="card-actions my-4">
                 <button
-                  className="btn btn-neutral-content h-12 w-32 text-xl font-semibold text-white italic border-2 border-white"
-                  style={{ textShadow: "8px 8px 8px black" }}
+                  className="btn btn-neutral-content h-12 w-32 text-xl font-semibold text-white italic border-2 border-white "
+                  style={{ textShadow: "4px 4px 4px black" }}
                 >
                   <a href="#contactme">Hire Me</a>
                 </button>
