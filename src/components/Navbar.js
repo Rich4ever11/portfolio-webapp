@@ -26,7 +26,12 @@ export default function Navbar() {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-white text-lg font-mono italic"
           >
             <li>
-              <a href="#home">HOMEPAGE</a>
+              <a
+                href="#home"
+                className="transition ease-in-out delay-100  border-2 border-white text-white font-semibold italic"
+              >
+                HOMEPAGE
+              </a>
             </li>
             <li>
               <a href="#aboutme">ABOUT ME</a>

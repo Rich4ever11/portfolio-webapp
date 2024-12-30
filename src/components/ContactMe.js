@@ -34,22 +34,23 @@ export default function ContactMe() {
         <div className="divider"></div>
         <div className="flex flex-col space-y-2 justify-center navbar">
           <h1
-            className="lg:text-7xl text-4xl font-thin text-sky-100 italic pb-4 font-mono divider py-4"
+            className="lg:text-7xl text-4xl font-thin text-sky-100 italic pb-4 font-mono divider py-4 underline "
             style={{ textShadow: "8px 8px 8px black" }}
           >
-            CONTACT&nbsp;<span className="text-sky-100">ME</span>
+            CONTACT ME
           </h1>
-          <h2 className="text-2xl font-mono font-thin">
-            <MdEmail size={24} />
+          <h2 className="lg:text-2xl text-xl font-mono font-thin pt-4 overflow-x-scroll w-96">
+            <MdEmail size={12} />
             <a href="mailto:ml60379@umbc.edu">&nbsp;ml60379@umbc.edu&nbsp;</a>
             {" | "}
             <a href="mailto:Richardartist80@Gmail.com">
               &nbsp;Richardartist80@Gmail.com
             </a>
           </h2>
-          <h2 className="text-2xl font-mono font-thin">
+
+          <h2 className="lg:text-2xl text-xl font-mono font-thin">
             <ImLocation2 size={24} className="shadow-black" />
-            &nbsp;Columbia, Maryland United States of America
+            &nbsp;Columbia, Maryland
           </h2>
         </div>
         <div className="divider"></div>
