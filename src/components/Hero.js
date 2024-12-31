@@ -53,12 +53,20 @@ export default function Hero() {
               </div>
               <button className="">
                 <a href="https://github.com/Rich4ever11">
-                  <FaGithub color="white" size={42} />
+                  <FaGithub
+                    color="white"
+                    size={42}
+                    className="rounded-full transition ease-in-out delay-150 duration-500 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-black"
+                  />
                 </a>
               </button>
-              <button className="">
+              <button>
                 <a href="https://www.linkedin.com/in/richard-aja-9b0271228">
-                  <BsLinkedin color="white" size={42} />
+                  <BsLinkedin
+                    color="white"
+                    size={42}
+                    className="transition ease-in-out delay-150 duration-500 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-black"
+                  />
                 </a>
               </button>
             </div>
