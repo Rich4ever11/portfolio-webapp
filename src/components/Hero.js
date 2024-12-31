@@ -17,7 +17,7 @@ export default function Hero() {
               <img
                 src="./static/hero4.jpg"
                 alt="N/A"
-                className="lg:max-w-md border-8 border-cyan-50/5 rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-cyan-50"
+                className="lg:max-w-md border-8 border-cyan-50/5 rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black"
               />
             </div>
           </div>
