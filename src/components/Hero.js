@@ -22,14 +22,14 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex flex-col px-4 justify-center">
-            <h2 className="lg:text-5xl text-4xl font-light text-sky-100 italic">
+            <h2 className="lg:text-4xl text-3xl font-light text-sky-100 italic">
               Software Development & Cybersecurity
             </h2>
             <h1
-              className="lg:text-[100px] text-[80px] font-bold text-white font-mono italic underline"
+              className="lg:text-[100px] sm:text-[75px] text-[70px] font-bold text-white font-mono italic"
               style={{ textShadow: "8px 8px 8px black" }}
             >
-              Richard N. <span className="text-sky-200 underline">Aja</span>
+              Richard <span className="text-sky-200">Aja</span>
             </h1>
 
             <p className="py-4 md:text-xl text-md text-white font-thin">

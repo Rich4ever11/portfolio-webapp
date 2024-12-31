@@ -9,7 +9,7 @@ export default function Body() {
     <div id="aboutme">
       <div className="min-h-screen bg-black py-2">
         <div className="flex flex-row-reverse">
-          <figure className="bg-black hidden md:block h-2/4 w-2/4 m-4">
+          <figure className="bg-black hidden md:block h-3/5 w-3/5 m-4">
             <img
               src="./static/hero.jpg"
               alt="Album"
