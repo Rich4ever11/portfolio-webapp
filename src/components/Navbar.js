@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-black/40 fixed z-50">
+    <div className="navbar bg-black/40 fixed z-50 ">
       <div className="navbar-start p-2">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-white text-lg font-mono italic"
+            className="menu menu-compact dropdown-content mt-6 p-2 shadow bg-black/75 border-2 border-white rounded-box w-52 text-white text-lg font-mono italic"
           >
             <li>
               <a href="#home">HOMEPAGE</a>
@@ -51,7 +51,7 @@ export default function Navbar() {
           Rich.io
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex ">
         <ul
           className="menu menu-horizontal px-1 font-thin text-white text-lg font-mono italic"
           style={{ textShadow: "8px 8px 8px black" }}
