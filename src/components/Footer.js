@@ -17,7 +17,7 @@ export default function Footer() {
           Copyright © 2024 - All right reserved
         </p>
       </div>
-      <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <div className="md:grid-flow-col gap-4 flex place-self-center justify-self-end">
         <button
           className="btn btn-neutral-content h-12 w-42 text-xl font-semibold text-white italic border-2 border-white"
           style={{ textShadow: "8px 8px 8px black" }}
