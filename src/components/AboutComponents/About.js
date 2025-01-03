@@ -57,7 +57,7 @@ export default function About() {
               Baltimore, MD
             </h3>
             <p className="font-mono italic">
-              Aug. 2023 – Dec. 2024 (In Progress)
+              Aug. 2023 – Dec. 2024 (Completed)
             </p>
             <div>
               <ClassCard classList={gradClasses} />
