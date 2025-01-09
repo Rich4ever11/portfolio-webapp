@@ -14,7 +14,7 @@ export default function ProjectCard({
       <div
         // md:w-96 w-42
         className="rounded-lg bg-black hover:bg-slate-800 shadow-xl shadow-slate-800 transition ease-in-out delay-150 duration-300"
-        style={{ width: "500px" }}
+        style={{ width: "625px" }}
       >
         <div className="py-4 overflow-x-scroll">
           <h2 className="card-title md:text-4xl text-xl text-white font-thin divider px-2">

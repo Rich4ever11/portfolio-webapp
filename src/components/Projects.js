@@ -20,10 +20,10 @@ export default function Projects() {
                     PROJECTS
                   </h1>
                 </div>
-                <div className="flex justify-items-center overflow-x-scroll ">
+                <div className="flex justify-items-center overflow-x-scroll">
                   {projectList.map((project, index) => {
                     return (
-                      <div className="flex justify-center" key={index}>
+                      <div className="" key={index}>
                         <ProjectCard
                           projectBanner={project.projectBanner}
                           projectName={project.projectName}
